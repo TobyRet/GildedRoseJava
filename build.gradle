@@ -1,0 +1,17 @@
+group 'com.codurance'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+
+sourceCompatibility = 1.5
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.5'
+    testCompile 'junit:junit:4.12'
+}
